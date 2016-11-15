@@ -16,7 +16,7 @@ public class HomeController {
 
 
     @RequestMapping("/layout")
-    public String getRailwayStationPartialPage(ModelMap modelMap) {
+    public String getHomePage(ModelMap modelMap) {
         return "home/layout";
     }
 }
